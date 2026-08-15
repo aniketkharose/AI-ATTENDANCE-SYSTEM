@@ -3,4 +3,11 @@ import streamlit as st
 
 
 def header_home():
-    st.header("Snap Class")
+    logo_url ="https://i.ibb.co/YTYGn5qV/logo.png"
+    
+    st.markdown(f"""
+        <div>
+            <img src='{logo_url}'style=height:100px />        
+            <h1 style=text_align:centerc>    </h1>
+            </div>    
+    """, unsafe_allow_html=True)
